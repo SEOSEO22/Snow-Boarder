@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float baseSpeed = 20f;
     Rigidbody2D rigid;
     SurfaceEffector2D surface;
-    public bool canMove = true;
+    bool canMove = true;
 
     void Start()
     {
